@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size  : 50px;
+}
+
+[class^="box-"]{
+    background-color: skyblue;
+    width : 200px;
+    height : 200px;
+    margin: 20px;
+    display: flex;
+    align-items : center;
+    justify-content : center;
+    border: 1px solid black;
+}
+
+.container{
+    display:flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+@media screen and (max-width:700px){
+    .box-1{
+        order: 1;
+    }
+}

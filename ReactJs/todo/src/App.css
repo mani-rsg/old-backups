@@ -1,0 +1,30 @@
+.app-heading {
+  color: #fff;
+}
+
+.button-align {
+  float        : right;
+  margin-bottom: 1%;
+  margin-top   : -0.6%;
+}
+
+.list-group-item {
+  display        : flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display        : flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity        : 0.5;
+}
+
+.selectOption {
+  margin-left: 15% !important;
+  height     : 35px;
+  width      : 15%;
+}

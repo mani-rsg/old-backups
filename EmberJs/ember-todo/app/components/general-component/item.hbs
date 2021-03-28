@@ -1,0 +1,4 @@
+<li class="list-group-item">
+    <span class="todo-value w-5">{{@val}}</span>
+    <button class="btn btn-danger button-align" {{on 'click' (fn deleteItem @val)}}>Delete</button>
+</li>
